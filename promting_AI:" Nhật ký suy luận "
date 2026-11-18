@@ -1,0 +1,71 @@
+###PROMT AI###
+Một cá nhân có thu nhập biến động mỗi tháng và đang có một số khoản nợ cần thanh toán
+đóng vai là nhân viên tư vấn chuyên nghiệp cho một người mới chưa biết gì
+hãy suy nghĩ từng bước một và tính toán chi tiết trước khi đưa ra quyết định
+- Bước 1: Tính toán tổng thu nhập khả dụng sau khi trừ thuế và chi phí cố định bắt buộc.
+- Bước 2: Phân bổ khoản tiền trả nợ tối thiểu.
+- Bước 3: Trích lập quỹ tiết kiệm theo tỷ lệ cam kết.
+- Bước 4: Chia phần còn lại cho chi tiêu linh hoạt theo quy tắc 50/30/20 cải tiến.
+yêu cầu: các công thức không dùng ký tự, hãy gọi thẳng tên. bỏ qua lời chào hỏi, hỏi thăm dài dòng
+đầu ra: Nhật ký suy luận logic (Reasoning Steps) chỉ ra công thức tính toán và số liệu trung gian. 
+###CÂU TRẢ LỜI CỦA AI###
+{
+Giả định dữ liệu đầu vào (Đơn vị: VNĐ):
+Tổng thu nhập thực nhận trong tháng: 15.000.000
+Thuế và bảo hiểm bắt buộc: 1.500.000
+Chi phí cố định bắt buộc (Tiền nhà, điện nước cơ bản, đi lại tối thiểu): 4.500.000
+Tổng tiền trả nợ tối thiểu hàng tháng: 2.000.000
+Tỷ lệ cam kết tiết kiệm: 10% (tính trên thu nhập sau thuế)
+Nhật ký suy luận logic (Reasoning Steps)
+Bước 1: Tính toán tổng thu nhập khả dụng sau khi trừ thuế và chi phí cố định bắt buộc
+Tư duy: Với người có thu nhập biến động, việc đầu tiên là tách bạch phần tiền thuộc về nhà nước và các hóa đơn duy trì sự sống tối thiểu. Phần còn lại mới thực sự là tiền của bạn để phân bổ.
+Công thức tính thu nhập sau thuế:
+Thu nhập sau thuế = Tổng thu nhập thực nhận trong tháng - Thuế và bảo hiểm bắt buộc
+Tính toán trung gian 1:
+15.
+000.000 - 1.500.000 = 13.500.000
+Công thức tính thu nhập khả dụng:
+Thu nhập khả dụng = Thu nhập sau thuế - Chi phí cố định bắt buộc
+Tính toán trung gian 2:
+13.
+500.000 - 4.500.000 = 9.000.000
+Kết quả Bước 1: Bạn còn lại 9.000.000 VNĐ.
+Bước 2: Phân bổ khoản tiền trả nợ tối thiểu
+Tư duy: Nợ là nghĩa vụ pháp lý và tài chính có lãi suất phạt cao nếu chậm trễ. Do đó, phải trích tiền trả nợ tối thiểu ngay lập tức trước khi nghĩ đến việc tiêu xài hay tiết kiệm.
+Công thức tính số tiền còn lại sau trả nợ:
+Số tiền còn lại sau trả nợ = Thu nhập khả dụng - Tổng tiền trả nợ tối thiểu hàng tháng
+Tính toán trung gian:
+9.
+000.000 - 2.000.000 = 7.000.000
+Kết quả Bước 2: Bạn còn lại 7.000.000 VNĐ.
+Bước 3: Trích lập quỹ tiết kiệm theo tỷ lệ cam kết
+Tư duy: Người có thu nhập biến động bắt buộc phải có quỹ dự phòng cho những tháng thu nhập sụt giảm. Tỷ lệ tiết kiệm nên tính trên thu nhập sau thuế để đảm bảo kỷ luật, sau đó trừ thẳng vào quỹ tiền hiện có.
+Công thức tính tiền tiết kiệm:
+Tiền tiết kiệm tháng này = Thu nhập sau thuế x Tỷ lệ cam kết tiết kiệm
+Tính toán trung gian 1:
+13.
+500.000 x 10% = 1.350.000
+Công thức tính ngân sách chi tiêu linh hoạt:
+Ngân sách chi tiêu linh hoạt = Số tiền còn lại sau trả nợ - Tiền tiết kiệm tháng này
+Tính toán trung gian 2:
+7.
+000.000 - 1.350.000 = 5.650.000
+Kết quả Bước 3: Bạn còn lại 5.650.000 VNĐ cho toàn bộ chi tiêu biến đổi trong tháng.
+Bước 4: Chia phần còn lại cho chi tiêu linh hoạt theo quy tắc 50/30/20 cải tiến
+Tư duy: Quy tắc 50/30/20 gốc dành cho tổng thu nhập. Khi áp dụng cải tiến cho phần ngân sách linh hoạt còn lại (sau khi đã trừ chi phí cố định, nợ và tiết kiệm cơ bản), chúng ta tái phân bổ theo tỷ trọng: 50% cho nhu cầu thiết yếu biến đổi (ăn uống, thực phẩm, thuốc men), 30% cho mong muốn cá nhân (giải trí, mua sắm, hiếu hỉ), và 20% để trả nợ gốc nhanh hơn hoặc gia tăng quỹ dự phòng thu nhập thấp.
+Công thức tính nhóm Nhu cầu thiết yếu biến đổi (50%):
+Ngân sách thiết yếu biến đổi = Ngân sách chi tiêu linh hoạt x 50%
+Tính toán trung gian 1:
+5.
+650.000 x 50% = 2.825.000
+Công thức tính nhóm Mong muốn cá nhân (30%):
+Ngân sách mong muốn cá nhân = Ngân sách chi tiêu linh hoạt x 30%
+Tính toán trung gian 2:
+5.
+650.000 x 30% = 1.695.000
+Công thức tính nhóm Trả nợ tăng cường hoặc Dự phòng biến động (20%):
+Ngân sách gia tốc tài chính = Ngân sách chi tiêu linh hoạt x 20%
+Tính toán trung gian 3:
+5.
+650.000 x 20% = 1.130.000
+}
